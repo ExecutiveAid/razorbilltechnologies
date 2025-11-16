@@ -6,7 +6,9 @@
 [build.environment]
   NODE_VERSION = "18"
 
+# Next.js static export - handle client-side routing
 [[redirects]]
   from = "/*"
   to = "/index.html"
-  status = 200 
+  status = 200
+  force = false 

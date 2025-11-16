@@ -2,10 +2,10 @@ export default function StructuredData() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "ExecutiveAid",
-    "url": "https://executiveaid.org",
-    "logo": "https://executiveaid.org/logo.png",
-    "description": "Professional virtual assistant services that transform businesses and drive success.",
+    "name": "Razorbill Technologies",
+    "url": "https://razorbilltechnologies.com",
+    "logo": "https://razorbilltechnologies.com/images/razorbill-logo.png",
+    "description": "Empowering businesses with intelligent digital systems, automation, and seamless CRM solutions.",
     "address": {
       "@type": "PostalAddress",
       "addressCountry": "GH"
@@ -14,19 +14,19 @@ export default function StructuredData() {
       "@type": "ContactPoint",
       "telephone": "+233256108055",
       "contactType": "customer service",
-      "email": "support@executiveaid.org"
+      "email": "info@razorbill.tech"
     },
     "sameAs": [
-      "https://www.instagram.com/executiveaid/",
-      "https://www.linkedin.com/company/executiveaid/",
-      "https://twitter.com/executiveaidltd"
+      "https://www.instagram.com/razorbilltech/",
+      "https://www.linkedin.com/company/razorbill-technologies/",
+      "https://twitter.com/razorbilltech"
     ],
     "foundingDate": "2024",
     "founders": [
       {
         "@type": "Person",
-        "name": "Ebo Mprah",
-        "jobTitle": "Chief Executive Officer"
+        "name": "Jeffery Crentsil",
+        "jobTitle": "Chief Technology Officer"
       }
     ],
     "employee": [
@@ -34,32 +34,19 @@ export default function StructuredData() {
         "@type": "Person",
         "name": "Jeffery Crentsil",
         "jobTitle": "Chief Technology Officer"
-      },
-      {
-        "@type": "Person",
-        "name": "Winston Sackey",
-        "jobTitle": "Chief Financial Officer"
       }
     ],
     "serviceArea": "Worldwide",
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
-      "name": "Virtual Assistant Services",
+      "name": "Enterprise Solutions",
       "itemListElement": [
         {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Administrative Assistance",
-            "description": "Professional administrative support services"
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Digital Marketing",
-            "description": "Comprehensive digital marketing services"
+            "name": "CRM Systems",
+            "description": "Custom CRM solutions for business management"
           }
         },
         {
@@ -68,6 +55,14 @@ export default function StructuredData() {
             "@type": "Service",
             "name": "Web Development",
             "description": "Custom web and app development solutions"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Business Automation",
+            "description": "Automation tools to streamline business processes"
           }
         }
       ]

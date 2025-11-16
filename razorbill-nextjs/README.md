@@ -1,151 +1,64 @@
-# Razorbill Technologies - Next.js + TypeScript Website
+# Razorbill Next.js App
 
-A modern, high-performance website for Razorbill Technologies, built using Next.js 15, TypeScript, and Tailwind CSS.
+This directory contains the Next.js application for Razorbill Technologies.
 
-## 🚀 Features
-
-- **Next.js 15** with App Router
-- **TypeScript** for type safety
-- **Tailwind CSS** for responsive design
-- **Lucide React** icons
-- **Formspree** integration for contact forms
-- **Custom scroll animations** and effects
-- **Fully responsive** design
-- **SEO optimized** with proper metadata
-
-## 📁 Project Structure
+## 📁 Structure
 
 ```
 razorbill-nextjs/
 ├── src/
-│   ├── app/
-│   │   ├── globals.css
-│   │   ├── layout.tsx
-│   │   ├── page.tsx
-│   │   └── policies/
-│   ├── components/
-│   │   ├── CTAForm.tsx
-│   │   ├── FooterForm.tsx
-│   │   ├── HeroForm.tsx
-│   │   ├── HeroCarousel.tsx
-│   │   ├── Navigation.tsx
-│   │   └── StructuredData.tsx
-│   └── hooks/
-│       └── useScrollAnimation.ts
-├── public/
-│   └── images/
-└── package.json
+│   ├── app/              # Next.js App Router pages
+│   ├── components/       # React components
+│   ├── hooks/            # Custom React hooks
+│   └── lib/              # Utility libraries
+├── public/               # Static assets
+└── package.json          # Dependencies
 ```
 
-## 🛠️ Installation & Setup
+## 🛠️ Development
 
-1. **Clone and navigate to the project:**
-   ```bash
-   cd razorbill-nextjs
-   ```
+**Note:** Run commands from the repository root using `npm run dev`, `npm run build`, etc.
 
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
+If working directly in this directory:
 
-3. **Start the development server:**
-   ```bash
-   npm run dev
-   ```
+```bash
+npm install
+npm run dev
+```
 
-4. **Open your browser and visit:**
-   ```
-   http://localhost:3000
-   ```
+## 📦 Key Dependencies
 
-## 🔧 Available Scripts
+- Next.js 15
+- React 19
+- TypeScript
+- Tailwind CSS
+- Formspree
+- Supabase
+- Lucide React
+- Swiper
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run start` - Start production server
-- `npm run lint` - Run ESLint
+## 🎨 Components
 
-## 🎨 Key Components
-
-### Custom Hooks
-- **`useScrollAnimation`**: Custom hook for scroll-triggered animations
-
-### Form Components
-- **`HeroForm`**: Contact form in the hero section
-- **`CTAForm`**: Call-to-action form
-- **`FooterForm`**: Footer contact form
-
-### Features Implemented
-- ✅ Responsive navigation with logo and menu
-- ✅ Hero section with background image and contact form
-- ✅ Business owner types section
-- ✅ Scroll-triggered animations
-- ✅ TypeScript interfaces and type safety
-- ✅ Custom CSS animations
-- ✅ Form validation and submission
-- ✅ Modern UI with Tailwind CSS
-
-## 🌟 Improvements Over Original
-
-1. **Type Safety**: Full TypeScript implementation
-2. **Performance**: Next.js optimizations and modern bundling
-3. **SEO**: Built-in Next.js SEO features
-4. **Developer Experience**: Better tooling and debugging
-5. **Scalability**: Modular component structure
-6. **Maintenance**: Cleaner, more maintainable code
+- `Navigation` - Main site navigation
+- `HeroCarousel` - Hero section carousel
+- `HeroForm`, `CTAForm`, `FooterForm` - Contact forms
+- `ReviewForm` - Customer review form
+- `StructuredData` - SEO structured data
 
 ## 📝 Environment Variables
 
-If you need to configure the Formspree form ID, create a `.env.local` file:
+Create `.env.local` for local development:
 
 ```
-NEXT_PUBLIC_FORMSPREE_ID=your_formspree_id_here
+NEXT_PUBLIC_FORMSPREE_ID=your_formspree_id
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_key
 ```
 
-## 🚀 Deployment
+## 🔧 Scripts
 
-### Deploy to Vercel (Recommended)
-1. Push your code to GitHub
-2. Connect your repository to Vercel
-3. Deploy automatically
-
-### Deploy to Netlify
-1. Build the project: `npm run build`
-2. Deploy the `out` folder to Netlify
-
-## 📱 Responsive Design
-
-The website is fully responsive and optimized for:
-- Mobile devices (320px+)
-- Tablets (768px+)
-- Desktop (1024px+)
-- Large screens (1280px+)
-
-## 🎯 Next Steps
-
-To complete the full website functionality, you can:
-1. Add the remaining sections (Services, Process, Mission, FAQ, etc.)
-2. Implement additional animations
-3. Add contact form backend integration
-4. Set up analytics tracking
-5. Add more interactive features
-
-## 💡 Tips
-
-- The website uses the `font-mono` class for consistent typography
-- All animations are performance-optimized using CSS transitions
-- Form submissions are handled via Formspree (form ID: mzzezpze)
-- Images are stored in the `public/images/` directory
-
-## 🔗 Links
-
-- [Next.js Documentation](https://nextjs.org/docs)
-- [TypeScript Documentation](https://www.typescriptlang.org/docs/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Lucide React Icons](https://lucide.dev/)
-- [Formspree Documentation](https://formspree.io/docs/)
-
----
-
-**Razorbill Technologies** - Enterprise Solutions for Modern Businesses. 🚀
+- `npm run dev` - Development server with Turbopack
+- `npm run build` - Production build
+- `npm run start` - Production server
+- `npm run lint` - Run ESLint
+- `npm run type-check` - TypeScript type checking

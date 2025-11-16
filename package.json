@@ -1,7 +1,7 @@
 {
-  "name": "razorbill-technologies-deployment",
+  "name": "razorbill-technologies",
   "version": "1.0.0",
-  "description": "Razorbill Technologies deployment configuration",
+  "description": "Razorbill Technologies website",
   "scripts": {
     "dev": "cd razorbill-nextjs && npm run dev",
     "build": "cd razorbill-nextjs && npm run build",
@@ -16,8 +16,5 @@
     "razorbill-technologies"
   ],
   "author": "Razorbill Technologies",
-  "license": "ISC",
-  "dependencies": {
-    "swiper": "^11.2.10"
-  }
+  "license": "ISC"
 }

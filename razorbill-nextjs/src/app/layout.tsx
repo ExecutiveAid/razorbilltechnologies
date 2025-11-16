@@ -14,10 +14,11 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://razorbilltechnologies.com"),
   title: "'Razorbill Technologies- Enterprise Solutions for Modern Businesses",
   description: 'Empowering businesses with intelligent digital systems, automation, and seamless CRM solutions.',
   keywords: "virtual assistant, executive support, business assistance, remote work, productivity",
-  authors: [{ name: "ExecutiveAid" }],
+  authors: [{ name: "Razorbill Technologies" }],
   robots: {
     index: true,
     follow: true,

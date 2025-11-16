@@ -1,35 +1,62 @@
-# Razorbill Technologies — Local development
+# Razorbill Technologies
 
-This repository contains the Razorbill Technologies website source.
+Enterprise Solutions for Modern Businesses - A modern, high-performance website built with Next.js 15, TypeScript, and Tailwind CSS.
 
-## Project layout
+## 🚀 Quick Start
 
-```
-razorbill/
-├── razorbill-nextjs/      # Next.js + TypeScript app (ACTIVE)
-├── vercel.json            # Vercel deployment configuration
-├── netlify.toml          # Netlify deployment configuration
-└── package.json          # Root scripts for local workflows
-```
-
-## 🚀 Local development quick start
-
-1. From the repo root, install app dependencies and run the dev server:
+From the repository root:
 
 ```bash
-# Install dependencies for the Next.js app
+# Install dependencies
 npm run install-deps
 
 # Start development server
 npm run dev
 ```
 
-Notes:
-- `npm run install-deps` will `cd` into `razorbill-nextjs` and run `npm install`.
-- `npm run dev` runs the Next.js dev server (via the root package scripts which cd into the app).
+The site will be available at `http://localhost:3000`
 
-## What changed
+## 📁 Project Structure
 
-- Project metadata (package.json) updated to reflect Razorbill Technologies
-- Deployment files (`vercel.json`, `netlify.toml`) updated to use `razorbill-nextjs` directory
-- All branding updated to Razorbill Technologies
+```
+razorbill/
+├── razorbill-nextjs/      # Next.js + TypeScript application
+│   ├── src/              # Source code
+│   ├── public/           # Static assets
+│   └── package.json      # App dependencies
+├── vercel.json           # Vercel deployment config
+├── netlify.toml          # Netlify deployment config
+└── package.json          # Root scripts
+```
+
+## 🔧 Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
+- `npm run install-deps` - Install app dependencies
+
+## 🚀 Deployment
+
+### Vercel (Recommended)
+The `vercel.json` file is configured for automatic deployment. Just connect your repository to Vercel.
+
+### Netlify
+The `netlify.toml` file is configured for automatic deployment. Connect your repository to Netlify.
+
+## 📝 Features
+
+- Next.js 15 with App Router
+- TypeScript for type safety
+- Tailwind CSS for styling
+- Responsive design
+- SEO optimized
+- Contact forms with Formspree
+- Custom animations and effects
+
+## 📧 Contact
+
+- Email: info@razorbill.tech
+- Phone: +233 256 108 055
+- Website: https://razorbilltechnologies.com

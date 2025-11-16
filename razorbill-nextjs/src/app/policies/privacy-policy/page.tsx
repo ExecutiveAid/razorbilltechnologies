@@ -2,8 +2,8 @@
 import Link from "next/dist/client/link";
 import Image from "next/image";
 export const metadata = {
-  title: "Privacy Policy - ExecutiveAid",
-  description: "Read our privacy policy to learn how ExecutiveAid protects your data.",
+  title: "Privacy Policy - Razorbill Technologies",
+  description: "Read our privacy policy to learn how Razorbill Technologies protects your data.",
 };
 
 export default function PrivacyPolicy() {
@@ -13,16 +13,16 @@ export default function PrivacyPolicy() {
         {/* Title with Logo */}
         <div className="flex items-center gap-4 mb-8">
           <Image
-            src="/images/EAID-logo.jpg" // change this path to match your logo file
-            alt="ExecutiveAid Logo"
-            width={288}
-            height={220}
-            className="w-12 h-12"
+            src="/images/razorbill-logo.png"
+            alt="Razorbill Technologies Logo"
+            width={70}
+            height={70}
+            className="w-12 h-12 rounded-lg"
           />
           <h1 className="text-3xl font-bold text-gray-900">Privacy Policy</h1>
         </div>
       <p className="mb-4 text-gray-900">
-        ExecutiveAid Ltd (“ExecutiveAid”, “we”, “us”, or “our”) values your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website executiveaid.org or use our services.
+        Razorbill Technologies (&quot;Razorbill&quot;, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) values your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website razorbilltechnologies.com or use our services.
       <br />By using our website and services, you consent to the practices described in this policy.
       </p>
       <h2 className="text-xl text-gray-900 font-semibold mt-6 mb-3">1. Information We Collect</h2>
@@ -50,11 +50,11 @@ export default function PrivacyPolicy() {
       <h2 className="text-xl text-gray-900 font-semibold mt-6 mb-3">3.Your Choices and Control</h2>
       <ul className="list-disc list-inside text-gray-900 mb-4">
         <li>Email Communications:
-            You can unsubscribe from marketing emails anytime by following the “unsubscribe” link in those emails or contacting us at support@executiveaid.org.</li>
+            You can unsubscribe from marketing emails anytime by following the &quot;unsubscribe&quot; link in those emails or contacting us at info@razorbill.tech.</li>
         <li>Access and Correction:
             You have the right to request access to your personal data and to correct or delete inaccurate or incomplete information.</li>
         <li>Account Deletion:
-        If you wish to cancel your account or stop using our services, contact us at support@executiveaid.org.
+        If you wish to cancel your account or stop using our services, contact us at info@razorbill.tech.
         </li>
       </ul>
       <h2 className="text-xl text-gray-900 font-semibold mt-6 mb-3">4.Cookies and Tracking</h2>
@@ -88,11 +88,11 @@ export default function PrivacyPolicy() {
         <br />Please review this page regularly to stay informed.</p>
          <h2 className="text-xl text-gray-900 font-semibold mt-6 mb-3">10. Contact Us</h2>
       <p className="mb-4 text-gray-900">If you have questions or requests regarding this Privacy Policy or your personal data, please contact us:
-        <br />ExecutiveAid Ltd
+        <br />Razorbill Technologies
       </p>
       <ul className="list-disc list-inside text-gray-900 mb-4">
-        <li>Email: support@executiveaid.org</li>
-        <li>Phone: +233256108055</li>
+        <li>Email: info@razorbill.tech</li>
+        <li>Phone: +233 256 108 055</li>
       </ul>
 
       {/* Close Button */}

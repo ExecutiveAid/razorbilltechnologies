@@ -3,8 +3,8 @@ import Navigation from '@/components/Navigation';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Leave a Review | Executive Aid',
-  description: 'Share your experience working with Executive Aid. Your feedback helps us serve our clients better.',
+  title: 'Leave a Review | Razorbill Technologies',
+  description: 'Share your experience working with Razorbill Technologies. Your feedback helps us serve our clients better.',
 };
 
 export default function ReviewPage() {
@@ -20,7 +20,7 @@ export default function ReviewPage() {
               Share Your Experience
             </h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              We&apos;d love to hear about your experience working with Executive Aid. 
+              We&apos;d love to hear about your experience working with Razorbill Technologies. 
               Your feedback helps us serve our clients better and helps other business owners 
               make informed decisions.
             </p>
@@ -78,7 +78,7 @@ export default function ReviewPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
-                href="mailto:support@executiveaid.org" 
+                href="mailto:info@razorbill.tech" 
                 className="bg-white text-indigo-900 px-6 py-3 rounded-full font-medium hover:bg-gray-100 transition-colors"
               >
                 Contact Us
